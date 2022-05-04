@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  min-width: 0;
+}
+
+.primary-button {
+  min-width: 120px;
+  cursor: pointer;
+  padding: 15px 15px;
+  color: #00e0d0;
+  font: 16px 'HammersmithOne', sans-serif;;
+  border:  solid 2px #00e0d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: uppercase;
+  transition: all 0.3s ease;
+  background: transparent
+
+}
+.primary-button:hover {
+  background: transparent
+}
+
+.separator{
+width: 50px;
+height: 2px;
+opacity: 0.3;
+background-color: #413d4b
+}

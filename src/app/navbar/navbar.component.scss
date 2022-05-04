@@ -1,0 +1,40 @@
+nav {
+    $size: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 30px 0px;
+    background-color: rgba(65, 48, 108, 1.8);
+    .content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            height: $size * 0.5;
+        }
+        ul {
+            display: flex;
+            li a {
+                color: white;
+                padding: 10px 15px;
+                font: 900 13px "Roboto", sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 0.33px;
+                transition: color 0.3s ease;
+                &:active,
+                &.hover {
+                    color: #10c9c3;
+                }
+            }
+        }
+
+        /* hitted navbar */
+        html[data-scroll="not-top"] nav {
+            background-color: rgba(65, 48, 108, 1.8);
+            transition: 0.3ms;
+        }
+    }
+}
