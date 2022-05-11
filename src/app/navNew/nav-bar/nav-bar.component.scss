@@ -1,0 +1,14 @@
+nav {
+    $size: 100px;
+    padding: 30px 0px;
+    background-color: rgba(65, 48, 108, 1.8);
+    .content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            height: $size * 0.5;
+        }
+    }
+}

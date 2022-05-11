@@ -1,0 +1,5 @@
+<div class='parent'>
+  <h3>Parent is here</h3>
+</div>
+<app-child1 [ageFromParent]="age" (clickFromChild1)="replaceName($event)"></app-child1>
+<app-child2 [nameFromParent]="name" (clickFromChild2)="incrementAge($event)"></app-child2>

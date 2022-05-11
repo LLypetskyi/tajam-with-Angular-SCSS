@@ -4,7 +4,10 @@
     text-decoration: none;
     list-style-type: none;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+}
 %font_1 {
     font: 900 13px "Roboto", sans-serif;
     text-transform: uppercase;
