@@ -1,19 +1,62 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-slider-item {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .carousel-item {
     position: absolute;
     opacity: 0;
-    color: white;
-    font-size: 20px;
-    transition: all .3s ease;
-    &.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    & h1 {
+        text-align: center;
+        font: 900 32px "PlayfairDisplay", serif;
+        letter-spacing: 0.32px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    &.separator {
+        background-color: #00e0d0;
+    }
+    &.text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    & p {
+        text-align: center;
+        font: 300 14px "Roboto", sans-serif;
+        letter-spacing: 0.7px;
+        line-height: 1.71;
+        color: white;
+        margin: 50px 0px;
+        width: 50%;
+    }
+    &.active {
         opacity: 1;
     }
 }
+
 .dots {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+
 .dot {
     height: 20px;
     width: 20px;

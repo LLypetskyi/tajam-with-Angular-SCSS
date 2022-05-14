@@ -1,11 +1,22 @@
-
 <div class="carousel">
-  <div class="carousel-item" *ngFor="let item of carousel; let idx = index" [class.active]="selectedIndex===idx">
-      <h1> {{item.title}}</h1>
-      <p>{{item.description}}</p>
-      <p>{{item.learnMoreUrl}}</p>
+  <div
+    class="carousel-item"
+    *ngFor="let item of carousel; let idx = index"
+    [class.active]="selectedIndex === idx"
+  >
+    <h1>{{ item.title }}</h1>
+    <div class="separator"></div>
+    <div class="text">
+      <p>{{ item.description }}</p>
+    </div>
+    <button class="primary-button">LEARN MORE</button>
+    <p>{{ item.learnMoreUrl }}</p>
   </div>
   <div class="dots">
-    <div class="dot" *ngFor="let item of carousel; let idx = index" (click)="navigateTo(idx)"></div>
+    <div
+      class="dot"
+      *ngFor="let item of carousel; let idx = index"
+      (click)="navigateTo(idx)"
+    ></div>
   </div>
 </div>
