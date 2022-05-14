@@ -1,67 +1,66 @@
 .carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-slider-item {
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.carousel-item {
-    position: absolute;
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    & h1 {
-        text-align: center;
-        font: 900 32px "PlayfairDisplay", serif;
-        letter-spacing: 0.32px;
-        color: white;
-        margin-bottom: 20px;
-    }
-    &.separator {
-        background-color: #00e0d0;
-    }
-    &.text {
+    margin-top: 100px;
+    & .carousel-item {
+        position: absolute;
+        left: 0;
+        right: 0;
+        opacity: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        transition: all 0.3s ease;
+        & .separator {
+            background-color: #00e0d0;
+        }
+        & h1 {
+            text-align: center;
+            font: 900 32px "PlayfairDisplay", serif;
+            letter-spacing: 0.32px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        & .text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        & p {
+            text-align: center;
+            font: 300 14px "Roboto", sans-serif;
+            letter-spacing: 0.7px;
+            line-height: 1.71;
+            color: white;
+            margin: 50px 0px;
+            width: 50%;
+        }
+        &.active {
+            opacity: 1;
+        }
     }
-    & p {
-        text-align: center;
-        font: 300 14px "Roboto", sans-serif;
-        letter-spacing: 0.7px;
-        line-height: 1.71;
-        color: white;
-        margin: 50px 0px;
-        width: 50%;
-    }
-    &.active {
-        opacity: 1;
-    }
-}
 
-.dots {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.dot {
-    height: 20px;
-    width: 20px;
-    margin: 5px;
-    border: 1px solid white;
-    box-sizing: border-box;
-    border-radius: 50%;
+    .dots {
+        position: absolute;
+        z-index: 999;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .dot {
+            height: 20px;
+            width: 20px;
+            margin: 5px;
+            border: 1px solid white;
+            box-sizing: border-box;
+            border-radius: 50%;
+        }
+        .active-dot {
+            background-color: #00e0d0;
+        }
+    }
 }
