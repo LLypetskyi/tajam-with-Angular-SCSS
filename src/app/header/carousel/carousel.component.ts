@@ -44,7 +44,6 @@ export class CarouselComponent implements OnInit {
   redirectTo(url: string) {
     this.selectUrl = url;
     console.log(this.selectUrl)
-    this.selectUrl = "";
   }
 
   constructor() { }

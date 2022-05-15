@@ -10,8 +10,11 @@ header {
   height: calc(100vh - 100px);
   padding-top: 100px;
   position: relative;
+  .container{
+    height: 100%;
+  }
+  .content{
+    height: 100%;
+  }
 }
-// .content {
-//   height: 100%;
-//   display: flex;
-// }
+
