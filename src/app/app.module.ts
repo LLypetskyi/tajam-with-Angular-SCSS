@@ -11,6 +11,7 @@ import { NavBarComponent } from './navNew/nav-bar/nav-bar.component';
 import { NavBarItemComponent } from './navNew/nav-bar/nav-bar-item/nav-bar-item.component';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './header/carousel/carousel.component';
+import { StoryComponent } from './story/story.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CarouselComponent } from './header/carousel/carousel.component';
     NavBarComponent,
     NavBarItemComponent,
     HeaderComponent,
-    CarouselComponent
+    CarouselComponent,
+    StoryComponent
   ],
   imports: [
     BrowserModule,

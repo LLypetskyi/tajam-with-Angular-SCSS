@@ -1,0 +1,47 @@
+section.story {
+    background: white;
+    padding: 100px 0;
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left {
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .right {
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+                h2 {
+                    font: 900 22px "PlayfairDisplay", serif;
+                    letter-spacing: 1.1px;
+                    text-align: left;
+                    color: #413d4b;
+                }
+                .text {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    p {
+                        font: 300 14px "Roboto", sans-serif;
+                        letter-spacing: 0.42px;
+                        line-height: 1.57;
+                        text-align: left;
+                        color: rgba(65, 61, 75, 0.75);
+                        opacity: 0.75;
+                    }
+                }
+            }
+        }
+        .story-logo {
+            height: 230px;
+        }
+    }
+}
