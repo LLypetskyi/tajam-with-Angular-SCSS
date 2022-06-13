@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  items: string[] = ['HOME','ABOUT','EXPERTISE','TEAMS','WORKS','PEOPLE SAY','CONTACT'];
+  items: string[] = ['home','about','expertise','teams','works','people say','contact'];
   
   constructor() { }
   

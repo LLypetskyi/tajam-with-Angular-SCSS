@@ -2,10 +2,10 @@
    <div class="container">
      <div class="content">
        <div class="logo">
-         <a href="#"> <img class="logo" src="assets/images/logo.png" alt="logo" /></a>
+         <a routerLink="home"> <img class="logo" src="assets/images/logo.png" alt="logo" /></a>
        </div>
        <ul>
-         <li><a href='' *ngFor="let item of items">{{item}}</a></li>
+         <li><a routerLink ="{{item}}" *ngFor="let item of items">{{item}}</a></li>
        </ul>
      </div>
    </div>

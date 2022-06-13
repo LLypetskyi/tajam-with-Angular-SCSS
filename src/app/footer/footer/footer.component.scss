@@ -1,0 +1,87 @@
+footer {
+  background-image: linear-gradient(
+      to top,
+      rgba(9, 5, 47, 0.8),
+      rgba(49, 29, 94, 0.8)
+    ),
+    url('../../../assets/images/footer-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+footer .topiks {
+  display: flex;
+}
+footer .topiks .left {
+  width: calc(100% / 3);
+  color: #fff;
+  margin: 80px 0px;
+}
+footer .topiks .left p,
+footer .topiks .center p {
+  font: 300 14px 'Roboto', serif;
+  line-height: 1.86;
+  letter-spacing: 0.35px;
+  text-align: left;
+  margin-right: 20px;
+}
+footer .topiks .left p {
+  margin-top: 40px;
+}
+footer .topiks .center {
+  width: calc(100% / 3);
+  color: #fff;
+  margin: 100px 0px;
+}
+footer .topiks .center p {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+footer .topiks .center h4,
+footer .topiks .right h4 {
+  font: 900 15px 'Roboto', serif;
+  line-height: 1.86;
+  letter-spacing: 0.35px;
+  text-align: left;
+}
+footer .topiks .right {
+  width: calc(100% / 3);
+  color: #fff;
+  margin: 100px 0px;
+}
+footer .topiks .right .box {
+  padding: 17px;
+  margin: 40px 0px;
+  border: 1px solid #fff;
+  font: 300 15px 'Roboto', serif;
+  letter-spacing: 0.7px;
+  text-align: left;
+  opacity: 0.75;
+}
+footer .under {
+  display: flex;
+  color: #fff;
+  margin-bottom: 70px;
+}
+footer .under .left {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+footer .under .left h5 {
+  font: 14px 'Roboto', serif;
+  letter-spacing: 0.35px;
+}
+footer .under .right {
+  width: 50%;
+}
+footer .under .right p {
+  font: 14px 'Roboto', serif;
+  letter-spacing: 0.35px;
+  text-align: right;
+}

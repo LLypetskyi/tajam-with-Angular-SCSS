@@ -1,0 +1,58 @@
+section.expertise {
+  background: white;
+  padding: 70px 0;
+}
+section.expertise .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.expertise .container .content h2 {
+  font: 900 22px 'PlayfairDisplay', serif;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #413d4b;
+}
+section.expertise .container .content > p {
+  font: 14px 'PlayfairDisplay', serif;
+  letter-spacing: 1.05px;
+  text-align: center;
+  color: rgba(47, 45, 53, 0.75);
+  opacity: 0.75;
+  margin: 20px 0px;
+}
+section.expertise .content .expertise-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-top: 80px;
+}
+section.expertise .content .expertise-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: calc(33.3% - 2px);
+  padding: 25px 25px;
+}
+section.expertise .content .expertise-item .expertise-item-img {
+  height: 50px;
+}
+section.expertise .content .expertise-item h4 {
+  font: 900 14px 'Roboto', sans-serif;
+  letter-spacing: 0.7px;
+  line-height: 1.57;
+  text-align: center;
+  color: #413d4b;
+  margin: 30px 0px;
+}
+section.expertise .content .expertise-items .expertise-item > p {
+  font: 300 14px 'Roboto', sans-serif;
+  opacity: 0.75;
+  letter-spacing: 0.7px;
+  line-height: 1.57;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.75);
+}
