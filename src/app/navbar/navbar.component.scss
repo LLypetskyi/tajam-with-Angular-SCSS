@@ -16,19 +16,21 @@ nav {
             height: $size * 0.5;
         }
         ul {
-            display: flex;
-            li a {
-                color: white;
-                padding: 10px 15px;
-                font: 900 13px "Roboto", sans-serif;
-                text-transform: uppercase;
-                letter-spacing: 0.33px;
-                transition: color 0.3s ease;
-                &:active,
-                &.hover {
-                    color: #10c9c3;
-                }
-            }
+    display: flex;
+
+    li a {
+        color: white;
+        padding: 10px 15px;
+        font: 900 13px "Roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.33px;
+        transition: color 0.3s ease;
+
+        &:active,
+        &.hover {
+            color: #10c9c3;
+        }
+    }
         }
 
         /* hitted navbar */

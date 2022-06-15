@@ -1,0 +1,82 @@
+section.team {
+  background-image: linear-gradient(to top, rgba(9, 5, 47, 0.8), rgba(49, 29, 94, 0.8)),
+    url("../../assets/images/team-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 140px 0px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-legend {
+    width: 100%;
+
+    .team-items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 70px 0px;
+
+      .team-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #e1e1e1;
+        margin: 10px;
+
+        h4 {
+          font: 900 14px "Roboto", sans-serif;
+          opacity: 0.75;
+          letter-spacing: 0.7px;
+          text-align: center;
+          color: #ffff;
+          padding-top: 20px;
+        }
+
+        .team-item-photo {
+          height: 220px;
+          width: 100%;
+        }
+      }
+    }
+
+    p {
+      font: 300 14px "Roboto", serif;
+      letter-spacing: 0.7px;
+      text-align: center;
+      color: hsl(0, 0%, 95%);
+    }
+  }
+
+  .team-legend-heder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font: 900 22px "PlayfairDisplay", serif;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: white;
+  }
+
+  p {
+    font: 14px "PlayfairDisplay", serif;
+    letter-spacing: 1.05px;
+    text-align: center;
+    color: #f9f9f9;
+    margin: 20px 0px;
+  }
+
+  .separator {
+    background-color: white;
+  }
+}

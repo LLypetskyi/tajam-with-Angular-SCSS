@@ -1,34 +1,41 @@
 section.story {
     background: white;
     padding: 150px 0;
+
     .content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         .wrapper {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             .left {
                 width: 40%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
+
             .right {
                 display: flex;
                 width: 60%;
                 flex-direction: column;
+
                 h2 {
                     font: 900 22px "PlayfairDisplay", serif;
                     letter-spacing: 1.1px;
                     text-align: left;
                     color: #413d4b;
                 }
+
                 .text {
                     margin-top: 15px;
                     margin-bottom: 15px;
+
                     p {
                         font: 300 14px "Roboto", sans-serif;
                         letter-spacing: 0.42px;
@@ -40,11 +47,13 @@ section.story {
                 }
             }
         }
+
         .story-logo {
             height: 230px;
         }
     }
 }
+
 section.watch-story {
     background-image: linear-gradient(to top, rgba(9, 5, 47, 0.8), rgba(49, 29, 94, 0.8)),
         url("../../assets/images/put-your-image-here@3x.png");
@@ -54,29 +63,34 @@ section.watch-story {
     min-height: 550px;
     /* padding: 70px 0px; */
     display: flex;
+
     .content {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
         position: relative;
+
         .show-video {
             position: absolute;
             display: flex;
             flex-direction: column;
             align-items: center;
+
             .watch-story-img {
                 background: transparent;
                 border-radius: 50px;
                 height: 100px;
                 width: 100px;
             }
+
             .watch-story-logo {
                 height: 100%;
                 width: 100%;
                 cursor: pointer;
                 object-fit: cover;
             }
+
             .watch-story-legend h3 {
                 font: 900 16px "Roboto", sans-serif;
                 letter-spacing: 0.8px;
